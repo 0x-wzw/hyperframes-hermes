@@ -1,0 +1,12 @@
+{
+  "name": "hyperframes-openclaw",
+  "version": "1.0.0",
+  "description": "OpenClaw skill",
+  "scripts": {
+    "lint": "echo \"No lint configured\"",
+    "test": "echo \"No tests configured\"",
+    "build": "echo \"No build step\""
+  },
+  "keywords": ["openclaw", "skill"],
+  "license": "MIT"
+}
