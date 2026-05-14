@@ -107,3 +107,8 @@ hyperframes-openclaw/
 ## License
 
 MIT
+
+---
+
+CI: re-running after manifest fix
+
