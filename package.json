@@ -1,12 +1,12 @@
 {
-  "name": "hyperframes-openclaw",
+  "name": "hyperframes-hermes",
   "version": "1.0.0",
-  "description": "OpenClaw skill",
+  "description": "Hermes skill",
   "scripts": {
     "lint": "echo \"No lint configured\"",
     "test": "echo \"No tests configured\"",
     "build": "echo \"No build step\""
   },
-  "keywords": ["openclaw", "skill"],
+  "keywords": ["hermes", "skill"],
   "license": "MIT"
 }

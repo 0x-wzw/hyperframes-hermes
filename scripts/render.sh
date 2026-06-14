@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# HyperFrames render wrapper for OpenClaw agents
+# HyperFrames render wrapper for Hermes agents
 # Usage: ./scripts/render.sh <composition-dir> [output-dir]
 set -euo pipefail
 

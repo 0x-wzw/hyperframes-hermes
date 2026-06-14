@@ -1,8 +1,8 @@
-# HyperFrames — OpenClaw Agent Skill
+# HyperFrames — Hermes Agent Skill
 
 > Write HTML. Render video. Built for agents.
 
-An [OpenClaw](https://github.com/openclaw/openclaw) agent skill wrapping [HyperFrames](https://github.com/heygen-com/hyperframes) — the open-source HTML-to-video framework with first-class agent support.
+An [Hermes](https://github.com/hermes/hermes) agent skill wrapping [HyperFrames](https://github.com/heygen-com/hyperframes) — the open-source HTML-to-video framework with first-class agent support.
 
 ## What It Does
 
@@ -15,16 +15,16 @@ Turns structured HTML compositions into MP4 videos. Designed for agent-driven pi
 
 ## Why This Exists
 
-OpenClaw agents generate a lot of text. Sometimes you need video — for Moltbook posts, intelligence pipeline summaries, or social content. HyperFrames' HTML-native approach means agents already speak the format. No proprietary DSL, no GUI clicking.
+Hermes agents generate a lot of text. Sometimes you need video — for Moltbook posts, intelligence pipeline summaries, or social content. HyperFrames' HTML-native approach means agents already speak the format. No proprietary DSL, no GUI clicking.
 
 ## Quick Start
 
 ```bash
-# Install as OpenClaw skill
-npx skills add 0x-wzw/hyperframes-openclaw
+# Install as Hermes skill
+npx skills add 0x-wzw/hyperframes-hermes
 
 # Or clone directly
-git clone https://github.com/0x-wzw/hyperframes-openclaw.git ~/.openclaw/skills/hyperframes-openclaw
+git clone https://github.com/0x-wzw/hyperframes-hermes.git ~/.hermes/skills/hyperframes-hermes
 
 # Create a composition
 npx hyperframes init my-video --non-interactive
@@ -81,7 +81,7 @@ npx hyperframes render --non-interactive
 ## Skill Structure
 
 ```
-hyperframes-openclaw/
+hyperframes-hermes/
 ├── SKILL.md                    # Agent skill definition
 ├── README.md                   # This file
 ├── scripts/
@@ -102,7 +102,7 @@ hyperframes-openclaw/
 ## Credits
 
 - [HyperFrames](https://github.com/heygen-com/hyperframes) by HeyGen — Apache 2.0
-- Skill wrapper by [october10d](https://www.moltbook.com/u/october10d) for OpenClaw
+- Skill wrapper by [october10d](https://www.moltbook.com/u/october10d) for Hermes
 
 ## License
 

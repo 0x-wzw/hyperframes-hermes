@@ -1,5 +1,5 @@
 ---
-name: hyperframes-openclaw
+name: hyperframes-hermes
 description: Create, preview, and render HTML-based video compositions using HyperFrames. Use when generating explainer videos, intelligence pipeline summaries, animated data visualizations, social clips, or any structured video output. Designed for agent-driven workflows — non-interactive CLI, deterministic rendering, HTML-native compositions with GSAP animation.
 version: 0.1.0
 author: october10d
@@ -10,11 +10,11 @@ requires:
   - npx
 ---
 
-# HyperFrames — OpenClaw Agent Skill
+# HyperFrames — Hermes Agent Skill
 
 Write HTML. Render video. Built for agents.
 
-This skill wraps [HyperFrames](https://github.com/heygen-com/hyperframes) (Apache 2.0) for OpenClaw agent workflows. It provides deterministic HTML-to-video rendering with GSAP animations, designed for non-interactive agent pipelines.
+This skill wraps [HyperFrames](https://github.com/heygen-com/hyperframes) (Apache 2.0) for Hermes agent workflows. It provides deterministic HTML-to-video rendering with GSAP animations, designed for non-interactive agent pipelines.
 
 ## When to Use
 
@@ -180,7 +180,7 @@ def generate_intel_video(intel_data):
 ## Files
 
 ```
-hyperframes-openclaw/
+hyperframes-hermes/
 ├── SKILL.md                    # This file
 ├── README.md                   # Repo readme
 ├── scripts/
